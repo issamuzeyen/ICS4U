@@ -30,7 +30,7 @@ public class TestMain {
 		System.out.println(Search.searchBinaryDouble(arrayDouble, target2));
 		
 		/**
-		 *Creates a simple array of integers, sets a target and outputs where the target is locatedf (-1 if not located)
+		 *Creates a simple array of strings, sets a target and outputs where the target is locatedf (-1 if not located)
 		 */
 		String[] arrayString = {"alligator","bee","cat","dog","elephant","frog","gorilla","horse", "iguana"};
 		String target3 = "cat";

@@ -12,10 +12,10 @@ public class Search {
 
 
 	/**
+	 * Searches for target1 (an int) in arrayInt using the linear search tactic
 	 * @param arrayInt
 	 * @param target1
 	 * @return
-	 * Searches for target1 (an int) in arrayInt using the linear search tactic
 	 */
 	public static int searchLinearInt(int[] arrayInt, int target1)
 	{
@@ -28,10 +28,10 @@ public class Search {
 	}
 
 	/**
+	 * Searches for target1 (an int) in arrayInt using the binary search tactic
 	 * @param arrayInt
 	 * @param target1
 	 * @return
-	 * Searches for target1 (an int) in arrayInt using the binary search tactic
 	 */
 	public static int searchBinaryInt(int[]arrayInt, int target1)
 	{
@@ -58,10 +58,10 @@ public class Search {
 		return -1;
 	}
 	/**
+	 * Searches for target2 (a double) in arrayDouble using the linear search tactic
 	 * @param arrayDouble
 	 * @param target2
 	 * @return
-	 * Searches for target2 (a double) in arrayDouble using the linear search tactic
 	 */
 	public static int searchLinearDouble(double[] arrayDouble, double target2)
 	{
@@ -74,10 +74,10 @@ public class Search {
 	}
 
 	/**
+	 * Searches for target2 (a double) in arrayDouble using the binary search tactic
 	 * @param arrayDouble
 	 * @param target2
 	 * @return
-	 * Searches for target2 (a double) in arrayDouble using the binary search tactic
 	 */
 	public static int searchBinaryDouble(double[]arrayDouble, double target2)
 	{
@@ -105,10 +105,10 @@ public class Search {
 	}
 
 	/**
+	 * Searches for target3 (a string) in arrayString using the linear search tactic
 	 * @param arrayString
 	 * @param target3
 	 * @return
-	 * Searches for target3 (a string) in arrayString using the linear search tactic
 	 */
 	public static int searchLinearString(String[] arrayString, String target3)
 	{
@@ -121,10 +121,10 @@ public class Search {
 	}
 
 	/**
+	 * Searches for target3 (a string) in arrayString using the binary search tactic
 	 * @param arrayString
 	 * @param target3
 	 * @return
-	 * Searches for target3 (a string) in arrayString using the binary search tactic
 	 */
 	public static int searchBinaryString(String[]arrayString, String target3)
 	{
