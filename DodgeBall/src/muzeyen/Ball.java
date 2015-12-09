@@ -1,6 +1,11 @@
 package muzeyen;
 
 import java.awt.Graphics;
+/**
+ * Class that extends moving object that constructs and locates the red balls in the game
+ * @author Issa Muzeyen adapted from Ms.Kemp 
+ *
+ */
 
 public class Ball extends MovingObject {
 	
@@ -31,8 +36,7 @@ public class Ball extends MovingObject {
 		radius = 33; 
 	}
 
-	public void animateOneStep() {
-	}
+	
 
 	/**
 	 * Draws the ball
@@ -52,3 +56,4 @@ public class Ball extends MovingObject {
 
 
 }
+

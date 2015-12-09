@@ -19,23 +19,14 @@ import javax.swing.JPanel;
  * but is sent to the starting point. The objective of this game is to survive for as long
  * as possible and obtain the highest score you can.
  * <br>
- * Should be run at around 500x300 pixels.<br>
- * <br>
- * @version Dec. 2015
+* @version Dec. 2015
  * 
  * @author Issa Muzeyen adapted from Christina Kemp adapted from Sam Scott
  */
 @SuppressWarnings("serial")
 public class GamePanel extends JPanel implements Runnable, KeyListener {
 	
-	/* The javadoc command was not working so i couldn't generate one.  I hope that either it works for you or you
-	understand! Sorry. */
-	
-	
-	
-	
-	
-	boolean running = true; //is the game running?
+	boolean running = true; //checks if the game is running (if user lost or not)
 	int xPlayer = 599; //x co-ord of user
 	int yPlayer = 599; //y co-ord of user
 	int score = 0;
@@ -134,7 +125,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 			friend.draw(g);
 			this.requestFocusInWindow();
 			requestFocus();
-			////////////////////////
+			//////////////////////// where things are drawn to screen
 			g.setColor(Color.black);
 			g.fillOval(xPlayer, yPlayer, 10, 10);
 
@@ -219,3 +210,6 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 		}
 	}
 }
+
+
+

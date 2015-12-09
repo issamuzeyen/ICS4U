@@ -1,6 +1,12 @@
+
 package muzeyen;
 
 import java.awt.Graphics;
+/**
+ * Class that extends moving object that constructs and locates the green ball in the game
+ * @author Issa Muzeyen adapted from Ms.Kemp
+ *
+ */
 
 public class Friend extends MovingObject{
 
@@ -41,8 +47,7 @@ public class Friend extends MovingObject{
 		g.fillOval(drawX, drawY, radius * 2, radius * 2);
 	}
 
-	@Override
-	public void animateOneStep() {	
-	}
+	
 
 }
+

@@ -26,7 +26,7 @@ import java.awt.Graphics;
  * 
  * @version November 2015.
  * 
- * @author Christina Kemp adapted from Sam Scott
+ * @author Issa Muzeyen adapted from Christina Kemp adapted from Sam Scott
  */
 public abstract class MovingObject implements Runnable {
 
@@ -75,8 +75,8 @@ public abstract class MovingObject implements Runnable {
 	 * Set to false to stop the thread.
 	 */
 	private boolean moving;
-	
-	
+
+
 
 	/**
 	 * Sets default color and pauseDuration values. Sets speed to 0. Starts
@@ -97,7 +97,7 @@ public abstract class MovingObject implements Runnable {
 	 */
 	public MovingObject(double x, double y, int left, int right, int top,
 			int bottom) {
-		this.pauseDuration = 50; //0
+		this.pauseDuration = 50; 
 		this.xSpeed = 0 ;
 		this.ySpeed = 0 ;
 		this.color = Color.black;
@@ -132,7 +132,6 @@ public abstract class MovingObject implements Runnable {
 	 */
 	public void run() {
 		while (moving) {
-			animateOneStep();
 			x += xSpeed;
 			y += ySpeed;
 			if (x >= right | x <= left)
@@ -155,11 +154,6 @@ public abstract class MovingObject implements Runnable {
 	abstract public void draw(Graphics g);
 
 	/**
-	 * Performs one step of animation.
-	 */
-	abstract public void animateOneStep();
-	
-	/**
 	 * Returns the x location.
 	 * 
 	 * @return
@@ -178,8 +172,8 @@ public abstract class MovingObject implements Runnable {
 	public double getY() {
 		return y;
 	}
-	
-	
+
+
 	/**
 	 * Sets the x speed.
 	 * 
